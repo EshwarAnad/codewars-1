@@ -15,6 +15,8 @@ Suggestion:
 Try to optimize your function.
 */
 
+// My solution
+
 function findNb(m) {
   var sum = 0;
   var i = 1;
