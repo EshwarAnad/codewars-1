@@ -5,9 +5,9 @@ For example, if we have a cube which has 4 cubes in a row, then the function sho
 */
 
 function notVisibleCubes(n) {
- 	if (n < 3){
-    	return 0;
- 	} else {
-    	return (n-2)*(n-2)*(n-2);
-	}
+  if (n < 3){
+    return 0;
+  } else {
+    return (n-2)*(n-2)*(n-2);
+  }
 }
