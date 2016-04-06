@@ -10,6 +10,8 @@ iqTest("2 4 7 8 10") => 3 // Third number is odd, while the rest of the numbers 
 iqTest("1 2 1 1") => 2 // Second number is even, while the rest of the numbers are odd
 */
 
+// My solution
+
 function iqTest(numbers){
   var arrayNum = numbers.split(" ").map(Number);
   if (arrayNum[0]%2 !== arrayNum[1]%2 && arrayNum[0]%2 !== arrayNum[2]%2) {
