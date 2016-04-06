@@ -5,6 +5,6 @@ The binary number returned should be a string!
 */
 
 function addBinary(a,b){
-	var dec = a + b;
-	return dec.toString(2);
+  var dec = a + b;
+  return dec.toString(2);
 }
