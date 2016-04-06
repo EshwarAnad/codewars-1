@@ -18,10 +18,10 @@ You can assume that all inputs are valid integers.
 */
 
 function roundToNext5(n){
- 	if (n%5 === 0) {
-    	return n;
-  	} else {
-   		n = n + (5 - n%5);
-   		return n;
-  	}
+  if (n%5 === 0) {
+    return n;
+  } else {
+    n = n + (5 - n%5);
+    return n;
+  }
 }
