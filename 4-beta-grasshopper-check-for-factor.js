@@ -19,5 +19,5 @@ For example 2 is not a factor of 7 because:
 */
 
 function checkForFactor (base, factor) {
- 	return base % factor === 0;
+  return base % factor === 0;
 }
