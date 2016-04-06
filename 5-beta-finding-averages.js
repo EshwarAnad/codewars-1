@@ -7,12 +7,12 @@ Ex: If input is [70, 70, 70, 70, 70] the program should return 70 (for obvious r
 */
 
 function average(array) {
-	if (typeof array === "string") {
-    	return "Incorrect";
-  	} else {
-  		var sum = 0;
-    	for (var i=0; i < array.length; i++) {
-     	sum = sum + array[i];
+  if (typeof array === "string") {
+    return "Incorrect";
+  } else {
+    var sum = 0;
+    for (var i=0; i < array.length; i++) {
+      sum = sum + array[i];
     }
     var avg = sum / array.length;
     return avg;
