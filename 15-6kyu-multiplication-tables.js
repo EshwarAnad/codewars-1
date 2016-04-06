@@ -15,12 +15,12 @@ Each value on the table should be equal to the value of multiplying the number i
 */
 
 function multiplicationTable(row, col) {
-    var multiArray = [];
-    for (var i = 0; i < row; i++) {
-        multiArray.push([]);
-        for (var j = 0; j < col; j++) {
-            multiArray[i].push((i+1) * (j+1));
-        }
+  var multiArray = [];
+  for (var i = 0; i < row; i++) {
+    multiArray.push([]);
+    for (var j = 0; j < col; j++) {
+      multiArray[i].push((i+1) * (j+1));
     }
-    return multiArray;
+  }
+  return multiArray;
 }
