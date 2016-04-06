@@ -7,5 +7,5 @@ If input data is invalid you should return 0 (as in no breaks are needed if we d
 */
 
 var breakChocolate = function(n, m) {
-	return Math.max(n * m - 1, 0);
+  return Math.max(n * m - 1, 0);
 }
