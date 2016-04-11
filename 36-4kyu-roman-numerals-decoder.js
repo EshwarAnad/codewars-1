@@ -28,8 +28,6 @@ function solution (roman) {
   return arabic;
 }
 
-console.log(solution('MIV'));
-
 // Alternative well-rated solution (tidied)
 
 function solution (roman) {
